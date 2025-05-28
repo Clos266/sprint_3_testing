@@ -50,17 +50,19 @@ function orderByYear(array) {
 }
 
 // Exercise 6: Calculate the average of the movies in a category
+
 function moviesAverageByCategory(array, genre) {
   let list = array.filter((f) => f.genre.includes(genre));
 
   let average = list.reduce((a, f) => a + (f.score || 0), 0) / list.length || 0;
 
-  console.log('EXERCISE 3 ->', parseFloat(average.toFixed(2)));
+  console.log('EXERCISE 6 ->', parseFloat(average.toFixed(2)));
 
   return parseFloat(average.toFixed(2));
 }
-moviesAverageByCategory(movies, 'Crime');
-moviesAverageByCategory(movies, 'Fantasy');
+
+//moviesAverageByCategory(movies, 'Crime');
+//moviesAverageByCategory(movies, 'Fantasy');
 // Exercise 7: Modify the duration of movies to minutes
 function hoursToMinutes() {}
 
