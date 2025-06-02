@@ -1,86 +1,39 @@
-# Sprint 3 IT Academy | Video management tool
+Sprint 3 - Testing
+Ejercicios de programación – IT Academy Barcelona Activa
 
-## Introduction
+Este repositorio contiene los ejercicios desarrollados por mí como parte del Sprint 3: Testing del curso de programación en la IT Academy de Barcelona Activa.
 
-A company in the audiovisual sector has asked us for a web application that will allow their employees to quickly find movies from a large database they have, since the process is currently done manually.
+Descripción
+Los ejercicios están centrados en la práctica de testing en un entorno de desarrollo con Node.js, y han sido desarrollados como parte de mi aprendizaje en el programa. Aunque los enunciados se basan en los propuestos por la formación, el desarrollo es completamente propio.
 
-You will be in charge of setting up the core of the application: all the logic of filtering and sorting of movies. You have 2 weeks to finish, which is how long this sprint lasts.
+Tecnologías utilizadas
+Node.js
 
-<br>
+Jest
 
-## Requirements
+npm
 
+Clonar y ejecutar el proyecto
+Puedes copiar el repositorio con el siguiente comando:
 
-1. Clone this repo
-```bash
-$ git clone https://github.com/IT-Academy-BCN/starter-code-frontend-sprint-3-movies
-```
+bash
+Copia
+Modifica
+git clone https://github.com/Clos266/sprint_3_testing.git
+cd sprint_3_testing
+npm install
+npm run test
 
-2. Unlink your repo from the itacademy repository
-```bash
-$ git remote rm origin
-```
+<details> <summary>📋 <strong>Copiar comando git</strong></summary>
+bash
+Copia
+Modifica
+git clone https://github.com/Clos266/sprint_3_testing.git
+</details>
+Asegúrate de tener Node.js y npm instalados.
 
-3. Link your repo to the repository you have to create in your github account
-```bash
-$ git remote add origin <your repo name!>
-```
+Objetivo
+Aprender y aplicar conceptos de testing automático en JavaScript para garantizar la calidad y fiabilidad del código.
 
-<br>
-
-## Submission
-
-1. Upon completion, run the following commands:
-
-```bash
-$ git add .
-$ git commit -m "Sprint Solution"
-$ git push origin master
-```
-
-2. Create Pull Request.
-
-3. Upload the link to the virtual campus so that your mentor can correct it and give you feedback.
-
-
-
-<br>
-
-## Introduction
-
-The statement of the exercise is available on the virtual campus.
-
-<br>
-
-## Tests!
-
-
-```shell
-$ npm install
-$ npm run test:watch
-```
-
-And last, open the generated `test-results.html` file with the "Live Server" VSCode extension to see test results.
-
-Apart from the statement, you will know exactly what you are asked to do by looking at the file `tests/films.spec.js`, all tests are already defined here!
-
-<br>
-
-## Instructions
-
-You have the following indications from the frontend responsible:
-
-- It is mandatory to implement all loops in ES6 (using map, reduce, filter and sort to manipulate arrays).
-
-- As at the moment we don't consume data from a server using an API, we will work with data from the src/data.js archive. For the moment we will implement the logic using
-an array of information about 250 movies.
-
-- The implementation is about processing this array of movies, to display it as requested in each exercise.
-
-- The logic to implement will be placed in the src/films.js file.
-
-- You don't need to show the result of each function on the screen. Your goal is to pass the tests.  More information on how to program oriented to pass tests at the end of the document.
-
-- Don't forget to include the capture of the test results in the virtual campus.
-
-
+Autor
+Desarrollado por CarlosGF

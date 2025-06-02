@@ -64,7 +64,6 @@ function moviesAverageByCategory(array, genre) {
 //moviesAverageByCategory(movies, 'Crime');
 //moviesAverageByCategory(movies, 'Fantasy');
 // Exercise 7: Modify the duration of movies to minutes
-function hoursToMinutes() {}
 
 // Exercise 8: Get the best film of a year
 function bestFilmOfYear() {}
